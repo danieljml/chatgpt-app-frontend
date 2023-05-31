@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,400&display=swap');
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: #9db2bf;
+  font-family: 'Alegreya Sans', sans-serif;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 500px;
+}
+
+.app__data {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  justify-items: center;
+  row-gap: 20px;
+}
+
+input {
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+button {
+  font-family: 'Alegreya Sans', sans-serif;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
